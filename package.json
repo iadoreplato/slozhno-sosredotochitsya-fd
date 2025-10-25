@@ -1,0 +1,27 @@
+{
+  "name": "slozhno-sosredotochitsya-fd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'Привет'",
+    "check": "prettier --check './**/*.{html,css,js}'",
+    "format": "prettier --write './**/*.{html,css,js}'",
+    "lint": "stylelint '**/*.css'",
+    "lintfix": "stylelint '**/*.css' --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iadoreplato/posmotri-v-okno-fd.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iadoreplato/posmotri-v-okno-fd/issues"
+  },
+  "homepage": "https://github.com/iadoreplato/posmotri-v-okno-fd#readme",
+  "dependencies": {
+    "prettier": "^3.6.2",
+    "stylelint": "^16.25.0"
+  }
+}
