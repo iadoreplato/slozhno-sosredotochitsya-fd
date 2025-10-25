@@ -6,7 +6,7 @@
 
 :root.theme-light {
   --cover-image: url(../images/cover-image-light.png);
-  --bg-color: #ffc2e6;
+  --bg-color: #fff1f7; 
   --main-text-color: #353430;
   --accent-text-color: #353430;
   --section-subtitle-color: #353430;
