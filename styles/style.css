@@ -410,6 +410,10 @@
   .section_how {
     gap: 13px;
   }
+  
+  .section_how {
+    grid-template-columns: 322px 1fr;
+  }
 
   .section__paragraphs {
     display: grid;
@@ -419,10 +423,6 @@
 
   .section__title-narrow {
     width: 25ch;
-  }
-
-  .section__article {
-    min-width: 67.5ch;
   }
 
   .footer {
